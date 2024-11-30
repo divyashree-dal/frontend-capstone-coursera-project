@@ -3,7 +3,7 @@ import HeroImage from "../../assets/hero.jpg";
 
 function Hero() {
   return (
-    <section className="flex justify-between bg-primary-green p-10 font-karla gap-30 items-center mx-auto">
+    <section className="pt-20 p-10 flex flex-col md:flex-row md:justify-around bg-primary-green md:p-20 font-karla md:gap-30 items-center overflow-x-hidden">
       {/* Left Side text */}
       <div className="w-[60%]">
         <h1 className="text-5xl text-primary-yellow">Little Lemon</h1>
@@ -15,7 +15,7 @@ function Hero() {
           with fresh, authentic ingredients to create a unique dining
           experience.
         </p>
-        <button className="bg-primary-yellow border-r-2 rounded-md p-2 text-primary-green font-semibold mt-4">
+        <button className="bg-primary-yellow border-r-2 rounded-md md:p-2 p-5 text-primary-green font-semibold md:mt-4 mt-10">
           <a key="/reservations" href="/reservations" rel="noopener noreferrer">
             Reserve a Table
           </a>
@@ -24,10 +24,10 @@ function Hero() {
       {/* Right Side image */}
       <img
         src={HeroImage}
-        alt="hero image"
+        alt="hero banner"
         height={200}
         width={200}
-        className="w-[30%] rounded-lg"
+        className="md:w-[30%] rounded-lg pt-20 w-[100%]"
       />
     </section>
   );
