@@ -3,7 +3,7 @@ import LogoFooter from "../../assets/logo-white.png";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <section className="pt-20 flex sm:flex-row flex-col  gap-11 justify-around bg-primary-green p-20 font-karla text-secondary-gray overflow-x-hidden">
+    <section className="pt-20 flex sm:flex-row flex-col gap-11 justify-around bg-primary-green p-20 font-karla text-secondary-gray overflow-x-hidden">
       {/*column 1 */}
 
       <img src={LogoFooter} alt="footer-logo" width={80} height={70} />

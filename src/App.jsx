@@ -7,13 +7,14 @@ import Testimonials from "./components/testimonials/Testimonials";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 import Menu from "./pages/Menu";
-import Reservations from "./pages/Reservations";
+import Reservations from "./components/reserveATableForm/Reservations";
 import Order from "./pages/Order";
 import Login from "./pages/Login";
+import { AlertProvider } from "./context/alertContext";
 
 function App() {
   return (
-    <>
+    <AlertProvider>
       <Routes>
         {/* Default Page with Sections */}
         <Route
@@ -35,7 +36,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-    </>
+    </AlertProvider>
   );
 }
 
