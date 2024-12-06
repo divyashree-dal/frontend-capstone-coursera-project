@@ -40,7 +40,7 @@ function Header() {
     <nav className="z-40 w-full fixed top-0 py-5 bg-secondary-gray ">
       <div className="flex items-center justify-between mx-auto w-5/6">
         <button onClick={() => window.location.reload()}>
-          <img src={Logo} alt="logo" height={50} />
+          <img src={Logo} alt="header-logo" height={50} />
         </button>
 
         {isAboveSmallScreens ? (
