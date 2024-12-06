@@ -1,3 +1,39 @@
+# Personal Portfolio
+
+- Welcome to the Little lemon restaurant portfolio! This repository contains the source code for my Little lemon website, where different foods and testimonials are showcased.
+
+## Intended Features:
+
+- Home banner
+- About Little lemon
+- Special food highlights
+- Testimonials
+- Reservations to book a table online
+
+## Authors
+
+- Divyashree Bangalore Subbaraya – Full Stack Developer
+
+## Built With
+
+- React: Front-end development framework
+- Tailwind CSS
+- Javascript
+
+## Git repository link
+
+- https://github.com/divyashree-dal/frontend-capstone-coursera-project
+- Branch: master
+
+## Deployed Application link
+
+-
+
+## Softwares used
+
+- Microsoft Visual Studio Code
+- Netlify
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

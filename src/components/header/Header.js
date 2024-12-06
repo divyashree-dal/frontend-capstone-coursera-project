@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import UseMediaQuery from "../../hooks/UseMediaQuery";
 import Logo from "../../assets/Logo .svg";
-import Hamburger from "../../assets/🦆 icon _hamburger menu.svg";
+import Hamburger from "../../assets/hamburger.svg";
 
 function Header() {
   const isAboveSmallScreens = UseMediaQuery("(min-width: 720px)");
