@@ -31,6 +31,7 @@ function Alert() {
             ref={cancelRef}
             onClick={onClose}
             className="px-4 py-2 font-medium text-white bg-gray-700 rounded hover:bg-gray-800"
+            aria-label="pop up alert close"
           >
             Close
           </button>

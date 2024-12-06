@@ -110,6 +110,7 @@ function BookingForm({
             className="bg-primary-yellow border-r-2 rounded-md md:p-2 p-5 text-primary-green font-semibold md:mt-4 mt-10"
             type="submit"
             width="full"
+            aria-label="Book a table"
           >
             Book a Table
           </button>

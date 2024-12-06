@@ -39,7 +39,7 @@ function Header() {
   return (
     <nav className="z-40 w-full fixed top-0 py-5 bg-secondary-gray ">
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <button onClick={() => window.location.reload()}>
+        <button onClick={() => window.location.reload()} aria-label="Header logo button">
           <img src={Logo} alt="header-logo" height={50} />
         </button>
 
@@ -72,6 +72,7 @@ function Header() {
           <button
             className="absolute right-10"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
+            aria-label="Hamburger mobile menu"
           >
             {!isMenuToggled ? (
               <img src={Hamburger} alt="hamburger" />

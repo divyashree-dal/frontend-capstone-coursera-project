@@ -9,7 +9,7 @@ function Highlights() {
         {/* Left Side text */}
         <h1 className="text-4xl font-semibold">Specials</h1>
         {/* Right Side button */}
-        <button className="bg-primary-yellow border-r-2 rounded-md md:p-4 p-1 text-primary-green font-semibold">
+        <button className="bg-primary-yellow border-r-2 rounded-md md:p-4 p-1 text-primary-green font-semibold" aria-label="Order button">
           <a key="/order" href="/order" rel="noopener noreferrer">
             Online Menu
           </a>

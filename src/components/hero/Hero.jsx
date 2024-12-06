@@ -15,7 +15,7 @@ function Hero() {
           with fresh, authentic ingredients to create a unique dining
           experience.
         </p>
-        <button className="bg-primary-yellow border-r-2 rounded-md md:p-2 p-5 text-primary-green font-semibold md:mt-4 mt-10">
+        <button className="bg-primary-yellow border-r-2 rounded-md md:p-2 p-5 text-primary-green font-semibold md:mt-4 mt-10" aria-label="Reserve a table button">
           <a key="/reservations" href="/reservations" rel="noopener noreferrer">
             Reserve a Table
           </a>
